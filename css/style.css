@@ -1,0 +1,113 @@
+
+* {
+  margin: 0; 
+  padding: 0;
+}
+
+
+@font-face {
+  font-family: 'CircularStd-Book';
+  src: url('CircularStd-Book.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root, body, marquee { width: 100%; height: 100%;}
+
+body {
+  background: #fff;
+}
+
+svg {
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 12s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotate; 
+    -moz-animation-duration: 12s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+p {
+  font-family: 'CircularStd-Book';
+  font-size: 40px;
+  line-height: 64px;
+  color: black;
+  text-align: left;
+}
+
+a {
+  font-family: 'CircularStd-Book';
+  font-size: 40px;
+  line-height: 64px;
+  color: black;
+  text-align: left;
+}
+
+a {text-decoration: none; color: #000;}
+
+a:hover {
+  padding-top: 3px;
+  border-bottom: 3px solid ;
+}
+
+.center-div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  /*
+  Nope =(
+  margin-left: -25%;
+  margin-top: -25%;
+  */
+
+  /* 
+  Yep!
+  */
+  transform: translate(-80%, -40%);
+
+  /*
+  Not even necessary really. 
+  e.g. Height could be left out!
+  */
+  width: 50%;
+  height: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    p {
+      font-family: 'CircularStd-Book';
+      font-size: 24px;
+      line-height: 40px;
+      color: black  ;
+      text-align: left;
+    }
+    a {
+      font-family: 'CircularStd-Book';
+      font-size: 24px;
+      line-height: 40px;
+      color: black;
+      text-align: left;
+    }
+    .center-div {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -30%);
+      width: 80%;
+      height: 50%;
+}
+
+
