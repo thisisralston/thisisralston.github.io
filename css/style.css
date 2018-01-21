@@ -6,7 +6,7 @@
 
 
 @font-face {
-  font-family: 'CircularStd-Book';
+  font-family:'CircularStd-Book';
   src: url('CircularStd-Book.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
@@ -40,7 +40,7 @@ svg {
 }
 
 p {
-  font-family: 'CircularStd-Book';
+  font-family:'CircularStd-Book';
   font-size: 40px;
   line-height: 64px;
   color: black;
@@ -48,7 +48,7 @@ p {
 }
 
 a {
-  font-family: 'CircularStd-Book';
+  font-family:'CircularStd-Book';
   font-size: 40px;
   line-height: 64px;
   color: black;
@@ -88,14 +88,14 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
     p {
-      font-family: 'CircularStd-Book';
+      font-family:'CircularStd-Book';
       font-size: 24px;
       line-height: 40px;
       color: black  ;
       text-align: left;
     }
     a {
-      font-family: 'CircularStd-Book';
+      font-family:'CircularStd-Book';
       font-size: 24px;
       line-height: 40px;
       color: black;
