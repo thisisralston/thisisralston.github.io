@@ -6,11 +6,17 @@
 
 
 @font-face {
-  font-family:'CircularStd-Book';
-  src: url('CircularStd-Book.eot') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Circular Std';
+    src: url('CircularStd-Medium.eot');
+    src: url('CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('CircularStd-Medium.woff2') format('woff2'),
+        url('CircularStd-Medium.woff') format('woff'),
+        url('CircularStd-Medium.ttf') format('truetype'),
+        url('CircularStd-Medium.svg#CircularStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
 }
+
 
 :root, body, marquee { width: 100%; height: 100%;}
 
@@ -40,7 +46,9 @@ svg {
 }
 
 p {
-  font-family:'CircularStd-Book';
+  font-family: 'Circular Std';
+  font-weight: 500;
+  font-style: normal;
   font-size: 40px;
   line-height: 64px;
   color: black;
@@ -48,7 +56,9 @@ p {
 }
 
 a {
-  font-family:'CircularStd-Book';
+  font-family: 'Circular Std';
+  font-weight: 500;
+  font-style: normal;
   font-size: 40px;
   line-height: 64px;
   color: black;
@@ -88,14 +98,18 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
     p {
-      font-family:helvetica;
+      font-family: 'Circular Std';
+      font-weight: 500;
+      font-style: normal;
       font-size: 24px;
       line-height: 40px;
       color: black  ;
       text-align: left;
     }
     a {
-      font-family:'CircularStd-Book';
+      font-family: 'Circular Std';
+      font-weight: 500;
+      font-style: normal;
       font-size: 24px;
       line-height: 40px;
       color: black;
