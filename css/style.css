@@ -22,7 +22,7 @@ body {
 
 
 p {
-  font-family: 'Circular Std';
+  font-family: Circular Std, "Helvetica Neue", Helvetica,Arial,sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 40px;
@@ -32,7 +32,7 @@ p {
 }
 
 a {
-  font-family: 'Circular Std';
+  font-family: Circular Std, "Helvetica Neue", Helvetica,Arial,sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 40px;
@@ -54,7 +54,7 @@ a:hover {
 @media only screen and (max-width: 768px) {
 
     p {
-      font-family: 'Circular Std';
+      font-family: Circular Std, "Helvetica Neue", Helvetica,Arial,sans-serif;
       font-weight: 500;
       font-style: normal;
       font-size: 24px;
@@ -64,7 +64,7 @@ a:hover {
     }
 
     a {
-      font-family: 'Circular Std';
+      font-family: Circular Std, "Helvetica Neue", Helvetica,Arial,sans-serif;
       font-weight: 500;
       font-style: normal;
       font-size: 24px;
