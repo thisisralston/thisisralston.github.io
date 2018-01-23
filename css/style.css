@@ -35,11 +35,11 @@ svg {
 
 @-webkit-keyframes rotate {
     from {-webkit-transform: rotate(0deg);}
-    to {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
 }
 
 @-moz-keyframes rotate {
-    from {-moz-transform: rotate(360deg);}
+    from {-moz-transform: rotate(0deg);}
     to {-moz-transform: rotate(360deg);}
 }
 
@@ -96,7 +96,7 @@ a:hover {
     body {
       background: #fff;
       width: 80%;
-      margin: 10vw 10vw;
+      margin: 10vw 20vw;
     }
 }
 
