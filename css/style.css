@@ -39,7 +39,8 @@ a {
   line-height: 64px;
   color: black;
   text-align: left;
-  cursor: url(//s3-us-west-2.amazonaws.com/s.cdpn.io/3174/cursor.png), auto;
+  /*cursor: url(//s3-us-west-2.amazonaws.com/s.cdpn.io/3174/cursor.png), auto;*/
+  cursor: url(https://i.imgur.com/FpHuQpd.png), auto;
 }
 
 a {text-decoration: none; color: #000;}
