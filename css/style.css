@@ -68,6 +68,7 @@ a {text-decoration: none; color: #000;}
 a:hover {
   padding-top: 3px;
   border-bottom: 5px solid ;
+  cursor: url(//s3-us-west-2.amazonaws.com/s.cdpn.io/3174/cursor.png), auto;
 }
 
 
