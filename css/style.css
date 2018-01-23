@@ -80,14 +80,14 @@ a:hover {
     }
 
     svg {
-    -webkit-animation-name: rotate; 
-    -webkit-animation-duration: 12s; 
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-name: rotate; 
-    -moz-animation-duration: 12s; 
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-timing-function: linear;
+      -webkit-animation-name: rotate; 
+      -webkit-animation-duration: 12s; 
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      -moz-animation-name: rotate; 
+      -moz-animation-duration: 12s; 
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: linear;
     }
 
     @-webkit-keyframes rotate {
