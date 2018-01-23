@@ -10,7 +10,7 @@
         url('CircularStd-Medium.woff') format('woff'),
         url('CircularStd-Medium.ttf') format('truetype'),
         url('CircularStd-Medium.svg#CircularStd-Medium') format('svg');
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -45,7 +45,7 @@ svg {
 
 p {
   font-family: 'Circular Std';
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-size: 40px;
   line-height: 64px;
@@ -55,7 +55,7 @@ p {
 
 a {
   font-family: 'Circular Std';
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-size: 40px;
   line-height: 64px;
@@ -68,7 +68,7 @@ a {text-decoration: none; color: #000;}
 
 a:hover {
   padding-top: 3px;
-  border-bottom: 5px solid ;
+  border-bottom: 4px solid ;
 }
 
 
