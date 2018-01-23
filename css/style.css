@@ -9,7 +9,7 @@
     	   url('CircularStd-Medium.woff2') format('woff2'),
          url('CircularStd-Medium.woff') format('woff'),
          url('CircularStd-Medium.ttf') format('truetype'),
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -23,7 +23,7 @@ body {
 
 p {
   font-family: 'Circular Std';
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-size: 40px;
   line-height: 64px;
@@ -33,7 +33,7 @@ p {
 
 a {
   font-family: 'Circular Std';
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   font-size: 40px;
   line-height: 64px;
@@ -55,7 +55,7 @@ a:hover {
 
     p {
       font-family: 'Circular Std';
-      font-weight: 400;
+      font-weight: 500;
       font-style: normal;
       font-size: 24px;
       line-height: 40px;
@@ -65,7 +65,7 @@ a:hover {
 
     a {
       font-family: 'Circular Std';
-      font-weight: 400;
+      font-weight: 500;
       font-style: normal;
       font-size: 24px;
       line-height: 40px;
