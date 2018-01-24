@@ -50,7 +50,7 @@ a:hover {
   border-bottom: 4px solid ;
 }
 
-svg:hover {
+svg:hover{
     -webkit-transition:0.5s ease all;
        -moz-transition:0.5s ease all;
          -o-transition:0.5s ease all;
@@ -61,6 +61,11 @@ svg:hover {
          -o-transform:rotate(360deg);
             transform:rotate(360deg);
 }
+
+svg:hover #Initials-Copy {
+    fill: #ffffff;
+    stroke-width: 2px;
+}    
 
 @media only screen and (max-width: 768px) {
 
@@ -112,7 +117,7 @@ svg:hover {
       to {-moz-transform: rotate(360deg);}
     }
 
-    svg:hover {
+    svg:hover{
       -webkit-animation-name: rotate; 
       -webkit-animation-duration: 12s; 
       -webkit-animation-iteration-count: infinite;
